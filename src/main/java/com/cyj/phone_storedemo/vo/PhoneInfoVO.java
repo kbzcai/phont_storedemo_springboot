@@ -16,7 +16,7 @@ public class PhoneInfoVO {
     @JsonProperty("title")
     private String phoneName;
     @JsonProperty("price")
-    private BigDecimal phonePrice;
+    private String phonePrice;
     @JsonProperty("desc")
     private String phoneDescription;
     private List<Map<String,String>> tag;
